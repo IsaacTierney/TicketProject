@@ -1,0 +1,12 @@
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\bin\Debug\net7.0\TicketMvc.Models.deps.json
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\bin\Debug\net7.0\TicketMvc.Models.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\bin\Debug\net7.0\TicketMvc.Models.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.csproj.AssemblyReference.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.AssemblyInfoInputs.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.AssemblyInfo.cs
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.csproj.CoreCompileInputs.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\refint\TicketMvc.Models.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\TicketMvc.Models.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Models\obj\Debug\net7.0\ref\TicketMvc.Models.dll

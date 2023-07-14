@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TicketMvc.WebMvc/1.0.0": {
+        "dependencies": {
+          "TicketMvc.Data": "1.0.0",
+          "TicketMvc.Models": "1.0.0",
+          "TicketMvc.Service": "1.0.0"
+        },
+        "runtime": {
+          "TicketMvc.WebMvc.dll": {}
+        }
+      },
+      "TicketMvc.Data/1.0.0": {
+        "runtime": {
+          "TicketMvc.Data.dll": {}
+        }
+      },
+      "TicketMvc.Models/1.0.0": {
+        "runtime": {
+          "TicketMvc.Models.dll": {}
+        }
+      },
+      "TicketMvc.Service/1.0.0": {
+        "dependencies": {
+          "TicketMvc.Data": "1.0.0",
+          "TicketMvc.Models": "1.0.0"
+        },
+        "runtime": {
+          "TicketMvc.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicketMvc.WebMvc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketMvc.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketMvc.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicketMvc.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

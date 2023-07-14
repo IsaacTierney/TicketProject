@@ -1,0 +1,17 @@
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.deps.json
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Data.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Models.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Models.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Data.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.csproj.AssemblyReference.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.AssemblyInfoInputs.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.AssemblyInfo.cs
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.csproj.CoreCompileInputs.cache
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.csproj.CopyComplete
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\refint\TicketMvc.Service.dll
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\ref\TicketMvc.Service.dll
