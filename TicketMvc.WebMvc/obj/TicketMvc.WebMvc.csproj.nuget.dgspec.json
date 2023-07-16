@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\TicketMvc.WebMvc.csproj": {}
+    "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\TicketMvc.WebMvc.csproj": {}
   },
   "projects": {
     "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.Data\\TicketMvc.Data.csproj": {
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\TicketMvc.WebMvc.csproj": {
+    "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\TicketMvc.WebMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\TicketMvc.WebMvc.csproj",
+        "projectUniqueName": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\TicketMvc.WebMvc.csproj",
         "projectName": "TicketMvc.WebMvc",
-        "projectPath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\TicketMvc.WebMvc.csproj",
+        "projectPath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\TicketMvc.WebMvc.csproj",
         "packagesPath": "C:\\Users\\itier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\obj\\",
+        "outputPath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\itier\\AppData\\Roaming\\NuGet\\NuGet.Config"

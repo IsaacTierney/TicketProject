@@ -1,4 +1,5 @@
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.deps.json
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.runtimeconfig.json
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.dll
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Service.pdb
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\bin\Debug\net7.0\TicketMvc.Data.dll
@@ -14,4 +15,5 @@ C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Deb
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.dll
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\refint\TicketMvc.Service.dll
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.pdb
+C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\TicketMvc.Service.genruntimeconfig.cache
 C:\Users\itier\Documents\ElevenFiftyAcademy\TicketMvc\TicketMvc.Services\obj\Debug\net7.0\ref\TicketMvc.Service.dll

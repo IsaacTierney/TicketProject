@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KY7wjJljGkvMBqcjLUSTNHyuh7Y8uTsjexk++TtQHwm0aJnMFCTRGvKYd9xnjQEKDYsy4ZLL2vOFcDihlxgCnw==",
+  "dgSpecHash": "8oZRj62qv194/MfUv0pMaTCLmT7/Sv+RhPRoSJ4yXF59//DSqrUBT4GASQoCO0trJy7+HXk4xppINpWIVlizjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMVC\\TicketMvc.WebMvc.csproj",
+  "projectFilePath": "C:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\TicketMvc.WebMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\itier\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\itier\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
