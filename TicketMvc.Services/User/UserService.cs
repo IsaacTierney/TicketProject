@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TicketMvc.Data;
 using TicketMvc.Data.Entities;
+using TicketMvc.Models.User;
 
 namespace TicketMvc.Services.User;
 
@@ -32,17 +33,17 @@ public class UserService : IUserService
             Email = model.Email
         };
 
-        var createResult = await _userManager.CreateAsync(user, model.Pasword);
+        var createResult = await _userManager.CreateAsync(user, model.Password);
         return createResult.Succeeded;
     }
 
-    public async Task<bool> LoginAsync(UserLoginInfo model)
+    public async Task<bool> LoginAsync(UserLogin model)
     {
         var user = await _userManager.FindByNameAsync(model.Username);
         if (user is null)
             return false;
 
-        var isValidPassword = await _userManager.CheckPasswordAsync(model.Password);
+        var isValidPassword = await _userManager.CheckPasswordAsync(user, model.Password);
         if (isValidPassword == false)
             return false;
         
