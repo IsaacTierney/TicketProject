@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace TicketMvc.Data.Entities;
 
 public class ShowEntity

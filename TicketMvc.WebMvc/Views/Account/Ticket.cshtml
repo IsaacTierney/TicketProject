@@ -1,0 +1,16 @@
+@model TicketMvc.Data.Entities.TicketEntity
+
+<h2>Ticket Details</h2>
+
+<div>
+    <h4>Show Title: @Model.ShowTitle</h4>
+    <p>Seat Assignment: @Model.SeatAssignment</p>
+    <p>Show Date: @Model.ShowDate.ToString("dd MMMM yyyy")</p>
+    <p>Price: @Model.Price.ToString("C")</p>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+</div>

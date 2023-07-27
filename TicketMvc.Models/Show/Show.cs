@@ -12,4 +12,5 @@ public class ShowCreate
     [Required]
     [MaxLength(1000, ErrorMessage = "{0} must contain no more than {1} characters.")]
     public string Description { get; set; } = string.Empty;
+    public int? Id { get; set;}
 }

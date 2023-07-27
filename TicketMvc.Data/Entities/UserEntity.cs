@@ -12,5 +12,5 @@ public class UserEntity : IdentityUser<int>
     public string? LastName { get; set; }
 
     [Required]
-    public DateTime DateCreated { get; set; }
+    public DateTimeOffset DateCreated { get; set; }
 }

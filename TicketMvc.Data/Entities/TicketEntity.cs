@@ -8,4 +8,5 @@ public class TicketEntity
     public string SeatAssignment { get; set; } = string.Empty;
     public DateTime ShowDate { get; set; }
     public decimal Price { get; set; }
+    public int? Id { get; set; }
 }
