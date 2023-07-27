@@ -17,23 +17,33 @@ public class UserService : IUserService
         UserManager<UserEntity> userManager,
         SignInManager<UserEntity> signInManager)
     {
-        _ctx = _ctx;
+        _ctx = ctx;
         _userManager = userManager;
         _signInManager = signInManager;
     }
 
     public async Task<bool> RegisterUserAsync(UserRegister model)
     {
-        if (await UserExistsAsync(model.Email, model.Username))
+        var UserExists = await UserExistsAsync(model.Email, model.Username);
+        Console.WriteLine(UserExists);
+        if (UserExists)
             return false;
-        
+        Console.WriteLine(model.Username);
         UserEntity user = new()
         {
             UserName = model.Username,
-            Email = model.Email
+            Email = model.Email,
+            FirstName = model.FirstName,
+            LastName = model.LastName,
+            PhoneNumber = string.Empty,
         };
 
         var createResult = await _userManager.CreateAsync(user, model.Password);
+        if (createResult.Succeeded == false)
+        {
+            foreach (var e in createResult.Errors)
+                Console.WriteLine(e. Description);
+        }
         return createResult.Succeeded;
     }
 

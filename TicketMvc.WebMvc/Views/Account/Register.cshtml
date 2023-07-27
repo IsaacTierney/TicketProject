@@ -4,6 +4,7 @@
 }
 
 <h1 class="display-4 mb-3">Create Account</h1>
+<div asp-validation-summary="All"></div>
 <form asp-action="Register" method="post">
     <div class="form-floating mb-3">
         <input type="text" class="form-control" asp-for="Username" placeholder="Username">

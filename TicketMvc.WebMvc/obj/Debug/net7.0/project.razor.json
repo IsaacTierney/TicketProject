@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Home\\Shows.cshtml",
+      "TargetPath": "Views\\Home\\Shows.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

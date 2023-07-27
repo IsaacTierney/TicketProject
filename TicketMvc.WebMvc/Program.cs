@@ -17,7 +17,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 
 // Enables using Identity Managers (Users, SignIn, Password)
-builder.Services.AddDefaultIdentity<UserEntity>()
+builder.Services.AddDefaultIdentity<UserEntity>(options => {
+    options.Password.RequiredLength = 4;
+    options.Password.RequireDigit = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+})
     .AddEntityFrameworkStores<AppDbContext>();
 
 // Configure what happens when a logged out user tries to access an authorized route
