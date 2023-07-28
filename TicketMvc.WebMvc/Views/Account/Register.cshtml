@@ -3,6 +3,60 @@
     ViewData["Title"] = "Register";
 }
 
+<style>
+    body {
+        background: linear-gradient(to bottom, #888, #000);
+        color: black;
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    h1 {
+        font-size: 64px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 black,
+            2px 2px 0 black;
+        color: yellow;
+        text-align: center;
+        }
+    .form-floating label {
+        color: gray;
+    }
+    .form-floating input.form-control {
+        color: white; /* Changed color to white */
+        background-color: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .btn-primary {
+        background-color: yellow;
+        color: black;
+        font-size: larger;
+        border-color: white;
+    }
+    .btn-primary:hover {
+        background-color: greenyellow;
+        border-color: white;
+        color: black;
+    }
+    .text-danger {
+        color: #dc3545;
+    }
+    .text-center {
+        text-align: center;
+    }
+</style>
+
+
 <h1 class="display-4 mb-3">Create Account</h1>
 <div asp-validation-summary="All"></div>
 <form asp-action="Register" method="post">

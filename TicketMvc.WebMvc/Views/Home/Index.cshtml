@@ -1,9 +1,70 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-image: linear-gradient(to bottom, #333333, #000000);
+            color: white;
+        }
+        .header {
+            background-color: transparent;
+            padding: 50px 0;
+        }
+        .main-content {
+            padding: 30px;
+        }
+        h1 {
+            font-size: 64px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-shadow:
+                -2px -2px 0 black,
+                2px -2px 0 black,
+                -2px 2px 0 black,
+                2px 2px 0 black;
+            color: yellow;
+        }
+        p {
+            color: white;
+            text-shadow: 2px 2px black;
+            font-size: 30px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>This is a totally legit and professional ticket buying website. </p>
-    <p>We have many shows to choose from and would never steer you wrong.</p>
-</div>
+        .ticket {
+            border: 5px solid black;
+            padding: 10px;
+            margin: 20px;
+            background-color: rgb(53, 53, 53);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="ticket">
+                <h1 class="text-center">LousyTicket.com</h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <p class="text-center">It's like Ticket Master but smaller and worse! Register or Login to browse our shows.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

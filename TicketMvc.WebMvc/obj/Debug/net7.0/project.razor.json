@@ -18655,13 +18655,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Ticket\\Ticket.cshtml",
+      "TargetPath": "Views\\Ticket\\Ticket.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Account\\Show.cshtml",
-      "TargetPath": "Views\\Account\\Show.cshtml",
+      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Show\\Index.cshtml",
+      "TargetPath": "Views\\Show\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18687,11 +18692,6 @@
     {
       "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\itier\\Documents\\ElevenFiftyAcademy\\TicketMvc\\TicketMvc.WebMvc\\Views\\Account\\Ticket.cshtml",
-      "TargetPath": "Views\\Account\\Ticket.cshtml",
       "FileKind": "mvc"
     },
     {

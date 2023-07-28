@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TicketMvc.Data;
 using TicketMvc.Data.Entities;
+using TicketMvc.Services;
 using TicketMvc.Services.User;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 });
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IShowService, ShowService>();
 
 // Enables using Identity Managers (Users, SignIn, Password)
 builder.Services.AddDefaultIdentity<UserEntity>(options => {

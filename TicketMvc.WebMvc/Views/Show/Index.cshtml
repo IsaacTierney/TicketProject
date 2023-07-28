@@ -1,0 +1,157 @@
+@model IEnumerable<TicketMvc.Models.Show.ShowCreate>
+<br/>
+<h1>All Shows</h1>
+<style>
+    .image-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .image-container img {
+        margin-right: 20px;
+        border: 1px solid white; 
+        transition: border-color 0.3s; 
+    }
+
+    .image-container img:hover {
+        border-color: yellow;
+    }
+
+
+    .description-box strong {
+        color: yellow; 
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <td class="image-container">
+                <a href="https://beetlejuicebroadway.com/">
+                    <img src="https://www.blumenthalarts.org/assets/img/beetlejuice_1440x14401-db1ac4eb3a.jpg"
+                        alt="BJBWAY" width="400" height="400">
+                </a>
+                <div class="description-box">
+                    <strong>Beetlejuice the Musical</strong>
+                    <p>A gut-busting show about death, featuring the iconic ghost with the most, Beetlejuice!</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://www.earthwindandfire.com/">
+                    <img src="https://www.earthwindandfire.com/wp-content/uploads/2016/12/Earth-Wind-Fire-tab3.jpg"
+                        alt="EW&F" width="400" height="400">
+                </a>
+                <div class="description-box">
+                    <strong>Earth, Wind & Fire Tour</strong>
+                    <p>Experience the soulful and funky music of Earth, Wind & Fire in concert.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://comefromaway.com/index.php">
+                    <img src="https://media.npr.org/assets/img/2017/03/01/comeawayfromcover_sq-6b0ae75fe32512fb2460c11b25d9eaea6e0f8153.jpg"
+                        alt="CFABWAY" width="400">
+                </a>
+                <div class="description-box">
+                    <strong>Come From Away</strong>
+                    <p>Experience the heartwarming true story of the small town that welcomed the world after 9/11.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://www.coldplay.com/tour/">
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/coldplay-music-of-the-spheres-world-tuli-hadok.jpg"
+                        alt="CLDPLY" width="400">
+                </a>
+                <div class="description-box">
+                    <strong>Coldplay - Music of the Spheres World Tour</strong>
+                    <p>Get ready for an mezmerizing ride through the music of Coldplay.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://www.cirquedusoleil.com/kurios">
+                    <img src="https://www.cirquedusoleil.com/-/media/cds/images/shows/kurios/new/thumbnails_share/kurios_thumbnail_454x454.jpg?db=web&vs=1&sc_lang=en&hash=526997C1636399E042AC9B7096DA8702"
+                        alt="KURIOS" width="400" height="400">
+                </a>
+                <div class="description-box">
+                    <strong>Kurios by Cirque du Soleil</strong>
+                    <p>Embark on an exciting journey through an fantastical, imaginary world.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://shuckedmusical.com/">
+                    <img src="https://cdn.smehost.net/masterworksbroadwaycom-45pressprod/wp-content/uploads/2023/04/SHUCKED_OBCR_Album_Cover_3000x300089874.jpg"
+                        alt="SHCKD" width="400">
+                </a>
+                <div class="description-box">
+                    <strong>Shucked the Musical</strong>
+                    <p>The residents of Cobb County are in search for a solution to their dying corn.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://hamiltonmusical.com/new-york/">
+                    <img src="https://pbs.twimg.com/media/D-9pgFGXUAE0eHY.jpg"
+                        alt="HMLTN" width="400">
+                </a>
+                <div class="description-box">
+                    <strong>Hamilton - An American Musical</strong>
+                    <p>Experience the cultural phenomenon that is Hamilton.</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <a href="https://www.taylorswift.com/tour-us/">
+                    <img src="https://img.apmcdn.org/919c72bd0ae5ef4ac119cd6083c96f8ad7fc02d5/square/e16342-20221101-taylor-swift-the-eras-tour-webp900.webp"
+                        alt="ERASTSWFT" width="400">
+                </a>
+                <div class="description-box">
+                    <strong>Taylor Swift - The Eras Tour</strong>
+                    <p>Join Taylor Swift on an unforgettable journey through her greatest hits.</p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to bottom, #333333, #000000); 
+            color: white;
+    }
+
+    tr{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        font-size: 20px
+    }
+   h1 {
+            font-size: 64px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-shadow:
+                -2px -2px 0 black,
+                2px -2px 0 black,
+                -2px 2px 0 black,
+                2px 2px 0 black;
+            color: yellow;
+        }
+</style>
+
+
